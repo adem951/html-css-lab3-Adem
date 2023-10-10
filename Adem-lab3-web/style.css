@@ -1,0 +1,76 @@
+/* 
+Google fonts: https://fonts.google.com/
+Please refer to my Typography lectures for choosing the font family and styles
+
+The font name: Roboto
+Styles: 
+Light 300
+Light 300 italic
+Bold 700
+Bold 700 italic
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#testimonial {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(35, 34, 39);
+ }
+
+ header{
+    background-color:bisque;
+ }
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+/* Adding all your custom CSS */
+
+
+
+@media screen and (max-width: 600px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    .menu ul {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu.active ul {
+        display: block;
+    }
+}
+.d-block w-100{
+    height: 50;
+}
+.navbar-brand{
+    font-family :"Times New Roman",Times,sans-serif;
+    color: rgb(223, 187, 7);
+}
+#highlights{
+    background-color: #333;
+}
